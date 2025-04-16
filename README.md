@@ -53,8 +53,14 @@ https://drive.google.com/file/d/1FJtCs0hM4Pv1475UUCruvB9yyH3uJ7Zq/view?usp=shari
 
 ```bash
 git clone https://github.com/michaelpiper/real_estate_app_ui.git
+# GOOGLE_API_KEY for map support
+# replace {{GOOGLE_API_KEY}} in real_estate_app_ui/ios/Runner/AppDelegate.swift
+# replace {{GOOGLE_API_KEY}} in real_estate_app_ui/android/app/src/main/AndroidManifest.xml
+
+# replace {{GOOGLE_API_KEY}} in real_estate_app_ui/lib/constants.dart
 cd real_estate_app_ui
 flutter pub get
+
 flutter run
 ```
 
